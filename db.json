@@ -1,14 +1,81 @@
 {
     "terms": [
-        {
-            "id": 1,
-            "course_count": 80
-        }
+          {
+                "id": 1,
+                "sis_term_id": "Sp2014",
+                "sis_import_id": 34,
+                "name": "Spring 2014",
+                "start_at": "2014-01-06T08:00:00-05:00",
+                "end_at": "2014-05-16T05:00:00-04:00",
+                "workflow_state": "active",
+                "overrides": {
+                  "StudentEnrollment": {
+                    "end_at": "2014-05-14T05:00:00-04:0",
+                    "start_at": "2014-01-07T08:00:00-05:00"
+                  }
+                },
+                "course_count": 80
+          }
     ],
     "courses": [
         {
             "id": 121422,
             "name": "CPDS Sandbox",
+            "account_id": 927,
+            "uuid": "Q7gLKRXHrppcF0SK7mQzOdiGSH640Lwhfn0zjp2H",
+            "start_at": "2023-05-01T07:00:00Z",
+            "grading_standard_id": null,
+            "is_public": false,
+            "created_at": "2023-05-01T19:44:04Z",
+            "course_code": "ateam.cpds.sandbox",
+            "default_view": "modules",
+            "root_account_id": 1,
+            "enrollment_term_id": 2,
+            "license": "private",
+            "grade_passback_setting": null,
+            "end_at": "2024-04-30T07:00:00Z",
+            "public_syllabus": false,
+            "public_syllabus_to_auth": false,
+            "storage_quota_mb": 4000,
+            "is_public_to_auth_users": false,
+            "homeroom_course": false,
+            "course_color": null,
+            "friendly_name": null,
+            "term": {
+                "id": 2,
+                "name": "Default Term",
+                "start_at": null,
+                "end_at": null,
+                "created_at": "2017-06-23T19:45:30Z",
+                "workflow_state": "active",
+                "grading_period_group_id": null
+            },
+            "apply_assignment_group_weights": false,
+            "calendar": {
+                "ics": "https://canvas.ubc.ca/feeds/calendars/course_Q7gLKRXHrppcF0SK7mQzOdiGSH640Lwhfn0zjp2H.ics"
+            },
+            "time_zone": "America/Los_Angeles",
+            "blueprint": true,
+            "blueprint_restrictions": {
+                "content": true,
+                "points": false,
+                "due_dates": false,
+                "availability_dates": false
+            },
+            "template": false,
+            "enrollments": [
+                {
+                    "type": "designer",
+                    "role": "DesignerEnrollment",
+                    "role_id": 6,
+                    "user_id": 1091802,
+                    "enrollment_state": "active",
+                    "limit_privileges_to_course_section": false
+                }
+            ],
+            "hide_final_grades": false,
+            "workflow_state": "unpublished",
+            "restrict_enrollments_to_course_dates": true
         }
     ]
 }
