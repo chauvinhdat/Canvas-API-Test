@@ -1,5 +1,4 @@
-[
-  {
+{
     "id": 1,
     "sis_term_id": "Sp2014",
     "sis_import_id": 34,
@@ -14,5 +13,4 @@
       }
     },
     "course_count": 80
-  }
-]
+}
